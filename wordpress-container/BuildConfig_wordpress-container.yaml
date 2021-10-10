@@ -33,8 +33,7 @@ spec:
       uri: 'https://github.com/jaysonzhao/wordpress-okd.git'
       ref: master
     contextDir: /wordpress-container
-    sourceSecret:
-      name: bitbucket-pull-ssh
+    
   triggers:
     - type: Generic
       generic:
