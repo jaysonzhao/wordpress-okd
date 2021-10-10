@@ -30,8 +30,8 @@ spec:
   source:
     type: Git
     git:
-      uri: 'ssh://git@git.brz.gv.at:7999/paascp/wordpress-okd.git'
-      ref: brz-ws
+      uri: 'https://github.com/jaysonzhao/wordpress-okd.git'
+      ref: main
     contextDir: /wordpress-container
     sourceSecret:
       name: bitbucket-pull-ssh
