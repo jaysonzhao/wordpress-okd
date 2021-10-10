@@ -51,7 +51,7 @@ spec:
       spec:
         accessModes:
           - ReadWriteOnce
-        storageClassName: netapp-trident-prz-delete
+        storageClassName: ocs-storagecluster-ceph-mirror
         volumeMode: Filesystem
         resources:
           requests:
