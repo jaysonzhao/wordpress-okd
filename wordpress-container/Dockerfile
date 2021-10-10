@@ -1,4 +1,4 @@
-FROM ubi7:7.9-511
+FROM image-registry.openshift-image-registry.svc:5000/openshift/ubi7
 
 LABEL summary="Wordpress" \
       description="Wordpress container" \
