@@ -31,7 +31,7 @@ spec:
     type: Git
     git:
       uri: 'https://github.com/jaysonzhao/wordpress-okd.git'
-      ref: main
+      ref: master
     contextDir: /wordpress-container
     sourceSecret:
       name: bitbucket-pull-ssh
