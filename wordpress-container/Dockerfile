@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi7:7.9-511
+FROM registry.access.redhat.com/ubi8/ubi:8.4-211
 
 LABEL summary="Wordpress" \
       description="Wordpress container" \
