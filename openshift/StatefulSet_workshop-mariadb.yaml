@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: mariadb
-          image: image-registry.openshift-image-registry.svc:5000/brz-ws-paas/mariadb-103-centos7:latest
+          image: mariadb:10.3-el8
           envFrom:
             - secretRef:
                 name: workshop-database
