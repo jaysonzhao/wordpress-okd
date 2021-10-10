@@ -7,9 +7,9 @@ metadata:
     cp.cna.at/instance: workshop
 spec:
   accessModes:
-    - ReadWriteMany
+    - ReadWriteOnce
   resources:
     requests:
       storage: 200Mi
-  storageClassName: netapp-trident-prz-delete
+  storageClassName: ocs-storagecluster-ceph-mirror
   volumeMode: Filesystem
