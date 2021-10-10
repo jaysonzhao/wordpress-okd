@@ -1,4 +1,4 @@
-FROM image-registry.openshift-image-registry.svc:5000/cp-baseimages/brz-cp-ubi:latest
+FROM ubi7:7.9-511
 
 LABEL summary="Wordpress" \
       description="Wordpress container" \
